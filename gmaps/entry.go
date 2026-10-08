@@ -110,8 +110,10 @@ type Entry struct {
 	// key are misspelled ("longtitude"); MarshalJSON also emits the correctly
 	// spelled "longitude" key, and UnmarshalJSON accepts either. The field
 	// name is kept for backwards compatibility with existing imports.
-	Longtitude          float64      `json:"longtitude"`
-	Status              string       `json:"status"`
+	Longtitude float64 `json:"longtitude"`
+	Status     string  `json:"status"`
+	// OpeningStatus is the time-sensitive opening-hours label at scrape time.
+	OpeningStatus       string       `json:"opening_status,omitempty"`
 	Description         string       `json:"description"`
 	ReviewsLink         string       `json:"reviews_link"`
 	Thumbnail           string       `json:"thumbnail"`
@@ -491,35 +493,7 @@ func EntryFromJSON(raw []byte, reviewCountOnly ...bool) (entry Entry, err error)
 		Country:    getNthElementAndCast[string](darray, 183, 1, 6),
 	}
 
-	aboutI := getNthElementAndCast[[]any](darray, 100, 1)
-
-	for i := range aboutI {
-		el := getNthElementAndCast[[]any](aboutI, i)
-		about := About{
-			ID:   getNthElementAndCast[string](el, 0),
-			Name: getNthElementAndCast[string](el, 1),
-		}
-
-		optsI := getNthElementAndCast[[]any](el, 2)
-
-		for j := range optsI {
-			opt := Option{
-				Enabled: (getNthElementAndCast[float64](optsI, j, 2, 1, 0, 0)) == 1,
-				Name:    getNthElementAndCast[string](optsI, j, 1),
-				Values:  getOptionValues(getNthElementAndCast[[]any](optsI, j)),
-			}
-
-			if opt.Name != "" {
-				addOrMergeOption(&about.Options, opt)
-			}
-
-			if about.ID == "payments" && opt.Name == "Credit cards" && len(opt.Values) > 0 {
-				entry.CreditCardsAccepted = mergeStringSlices(entry.CreditCardsAccepted, opt.Values)
-			}
-		}
-
-		entry.About = append(entry.About, about)
-	}
+	populateAbout(&entry, darray)
 
 	entry.ReviewsPerRating = map[int]int{
 		1: int(getNthElementAndCast[float64](darray, 175, 3, 0)),
@@ -1049,4 +1023,37 @@ func filterAndSortEntriesWithinRadius(entries []*Entry, lat, lon, radius float64
 	}
 
 	return slices.Collect(iter.Seq[*Entry](resultIterator))
+}
+
+func populateAbout(entry *Entry, darray []any) {
+	aboutI := getNthElementAndCast[[]any](darray, 100, 1)
+
+	for i := range aboutI {
+		el := getNthElementAndCast[[]any](aboutI, i)
+		about := About{
+			ID:   getNthElementAndCast[string](el, 0),
+			Name: getNthElementAndCast[string](el, 1),
+		}
+
+		optsI := getNthElementAndCast[[]any](el, 2)
+
+		for j := range optsI {
+			opt := Option{
+				Enabled: (getNthElementAndCast[float64](optsI, j, 2, 1, 0, 0)) == 1,
+				Name:    getNthElementAndCast[string](optsI, j, 1),
+				Values:  getOptionValues(getNthElementAndCast[[]any](optsI, j)),
+			}
+
+			if opt.Name != "" {
+				addOrMergeOption(&about.Options, opt)
+			}
+
+			if about.ID == "payments" && opt.Name == "Credit cards" && len(opt.Values) > 0 {
+				entry.CreditCardsAccepted = mergeStringSlices(entry.CreditCardsAccepted, opt.Values)
+			}
+		}
+
+		entry.About = append(entry.About, about)
+	}
+
 }

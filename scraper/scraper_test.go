@@ -14,7 +14,7 @@ import (
 func TestScraperManagerSubmitJobRequiresWriterManagedCompletion(t *testing.T) {
 	m := NewScraperManager(nil, 1, false, false, 10, nil)
 
-	err := m.SubmitJob(context.Background(), gmaps.NewGmapJob("job-1", "en", "coffee", 1, false, "", 0))
+	err := m.SubmitJob(context.Background(), gmaps.NewGmapJob("job-1", "en", "coffee", 1, false, "", 0, ""))
 	require.Error(t, err)
 	require.Contains(t, err.Error(), "WriterManagedCompletion")
 }

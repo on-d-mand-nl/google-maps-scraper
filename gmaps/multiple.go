@@ -3,7 +3,10 @@ package gmaps
 import (
 	"encoding/json"
 	"fmt"
+	"net/url"
+	"strconv"
 	"strings"
+	"unicode"
 
 	olc "github.com/google/open-location-code/go"
 )
@@ -37,6 +40,10 @@ func ParseSearchResults(raw []byte) ([]*Entry, error) {
 		}
 
 		business := getNthElementAndCast[[]any](arr, 14)
+
+		if len(business) == 0 {
+			continue
+		}
 
 		var entry Entry
 
@@ -74,6 +81,8 @@ func ParseSearchResults(raw []byte) ([]*Entry, error) {
 
 		entry.PlusCode = olc.Encode(entry.Latitude, entry.Longtitude, 10)
 
+		populateFastDetails(&entry, business)
+
 		entry.Raw = business
 
 		entries = append(entries, &entry)
@@ -89,4 +98,81 @@ func toStringSlice(arr []any) []string {
 	}
 
 	return ans
+}
+
+// populateFastDetails maps additional fields already present in a search response.
+// Google array offsets are shared with the detail response where applicable.
+func populateFastDetails(entry *Entry, business []any) {
+	if len(entry.Categories) > 0 {
+		entry.Category = entry.Categories[0]
+	}
+	entry.PlaceID = getNthElementAndCast[string](business, 78)
+	entry.ReviewsLink = getNthElementAndCast[string](business, 4, 3, 0)
+	if entry.PlaceID == "" {
+		if reviewsURL, err := url.Parse(entry.ReviewsLink); err == nil {
+			entry.PlaceID = reviewsURL.Query().Get("placeid")
+		}
+	}
+	if _, hexID, ok := strings.Cut(entry.DataID, ":"); ok {
+		if cid, err := strconv.ParseUint(strings.TrimPrefix(hexID, "0x"), 16, 64); err == nil {
+			entry.Cid = strconv.FormatUint(cid, 10)
+		}
+	}
+	if entry.PlaceID != "" {
+		entry.Link = "https://www.google.com/maps/search/?" + url.Values{"api": {"1"}, "query": {entry.Title}, "query_place_id": {entry.PlaceID}}.Encode()
+	} else if entry.Cid != "" {
+		entry.Link = "https://www.google.com/maps?cid=" + entry.Cid
+	}
+	entry.Description = getNthElementAndCast[string](business, 32, 1, 1)
+	entry.OpeningStatus = getNthElementAndCast[string](business, 203, 1, 4, 0)
+	// [88][0] can be a business description: only accept known closure enums.
+	if entry.Status == "" {
+		switch status := getNthElementAndCast[string](business, 88, 0); status {
+		case "CLOSED", "PERMANENTLY_CLOSED", "TEMPORARILY_CLOSED":
+			entry.Status = status
+		}
+	}
+	entry.CompleteAddress = Address{
+		Borough:    getNthElementAndCast[string](business, 183, 1, 0),
+		Street:     getNthElementAndCast[string](business, 183, 1, 1),
+		City:       getNthElementAndCast[string](business, 183, 1, 3),
+		PostalCode: getNthElementAndCast[string](business, 183, 1, 4),
+		State:      getNthElementAndCast[string](business, 183, 1, 5),
+		Country:    getNthElementAndCast[string](business, 183, 1, 6),
+	}
+	entry.WebSite = extractActualURL(entry.WebSite)
+	// Prefer the explicitly supplied international variant; never infer a country code.
+	for _, value := range getNthElementAndCast[[]any](business, 178, 0, 1) {
+		variant, ok := value.([]any)
+		if !ok {
+			continue
+		}
+		phone := getNthElementAndCast[string](variant, 0)
+		if strings.HasPrefix(phone, "+") {
+			entry.Phone = phone
+			break
+		}
+	}
+	entry.Phone = strings.Map(func(r rune) rune {
+		if unicode.IsSpace(r) || r == '-' || r == '(' || r == ')' {
+			return -1
+		}
+		return r
+	}, entry.Phone)
+	populateAbout(entry, business)
+	entry.Reservations = getLinkSource(getLinkSourceParams{arr: getNthElementAndCast[[]any](business, 46), link: []int{0}, source: []int{1}})
+	for _, value := range getNthElementAndCast[[]any](business, 75, 0) {
+		action, ok := value.([]any)
+		if !ok {
+			continue
+		}
+		// Action type 1 is a reservation. Do not mislabel its provider links as ordering links.
+		if getNthElementAndCast[float64](action, 0) != 1 {
+			continue
+		}
+		link := getNthElementAndCast[string](action, 5, 1, 2, 0)
+		if link != "" {
+			entry.Reservations = append(entry.Reservations, LinkSource{Link: link, Source: "Google Maps"})
+		}
+	}
 }

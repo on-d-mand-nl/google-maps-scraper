@@ -1,0 +1,9690 @@
+[
+  {
+    "about": null,
+    "address": "Herengracht 374, 1016 CH Amsterdam, Netherlands",
+    "categories": [
+      "Consultant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c60906ae9fea3f:0xfd846e2fbc425709",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1044",
+    "latitude": 52.3683093,
+    "link": "",
+    "longitude": 4.8863287,
+    "longtitude": 4.8863287,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {},
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "+31207608877",
+    "place_id": "",
+    "plus_code": "9F469V9P+8G",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHav3UOb-ei-gP2eTpgAw",
+      "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQ8BcoAHoFCBgQjwQ",
+      [
+        "Herengracht 374",
+        "1016 CH Amsterdam",
+        "Netherlands"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJP-qfrgYJxkcRCVdCvC9uhP0&q=restobar&authuser=0&hl=en",
+          "2 reviews",
+          null,
+          "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQ6W4oAXoFCBgQoAQ"
+        ],
+        null,
+        null,
+        null,
+        5,
+        2
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        52.3683093,
+        4.8863287
+      ],
+      "0x47c60906ae9fea3f:0xfd846e2fbc425709",
+      "Jacobsz Consultancy B.V.",
+      null,
+      [
+        "Consultant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "Jacobsz Consultancy B.V., Herengracht 374, 1016 CH Amsterdam, Netherlands",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQwaQDKAB6BQgYEKME"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQwaQDKAF6BQgYEKQE"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQwaQDKAJ6BQgYEKUE"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQwaQDKAN6BQgYEKYE"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQwaQDKAR6BQgYEKcE"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQ0JcGKBB6BQgYEKIE"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Herengracht 374, 1016 CH Amsterdam, Netherlands",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ChIJP-qfrgYJxkcRCVdCvC9uhP0",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Herengracht 374",
+        "Herengracht 374",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        "Jacobsz Consultancy B.V.",
+        [
+          null,
+          null,
+          188,
+          187,
+          1166,
+          186
+        ]
+      ],
+      "/g/11gyysk6h7",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "nl",
+      null,
+      "English",
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        0
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh3.googleusercontent.com/-TP2hoON6biw/AAAAAAAAAAI/AAAAAAAAAAA/_KjcnIhW4wc/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam, Netherlands",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "+31 20 760 8877",
+          [
+            [
+              "020 760 8877",
+              1
+            ],
+            [
+              "+31 20 760 8877",
+              2
+            ]
+          ],
+          null,
+          "+31207608877",
+          null,
+          [
+            "tel:+31207608877",
+            null,
+            null,
+            "2ahUKEwj9kPicjKqXAxU_zwIHHVlyGsAQ_doBKA16BQgYEJ0E"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "5191805134427576737",
+        "106798368562967516087"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "Jacobsz Consultancy B.V."
+              ],
+              [
+                "Herengracht 374"
+              ],
+              [
+                "1016 CH Amsterdam"
+              ],
+              [
+                "Netherlands"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "Jacobsz Consultancy B.V., Herengracht 374, 1016 CH Amsterdam, Netherlands"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Herengracht 374, 1016 CH Amsterdam, Netherlands"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam, Netherlands"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Herengracht 374",
+          "Herengracht 374",
+          "Amsterdam",
+          "1016 CH",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          null,
+          null,
+          null,
+          1,
+          [
+            "Open now",
+            [
+              [
+                0,
+                8,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.368308199999994,
+          4.8863642
+        ]
+      ],
+      "CghyZXN0b2JhcpIBCmNvbnN1bHRhbnTgAQA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c60906ae9fea3f:0xfd846e2fbc425709",
+          null,
+          null,
+          "/g/11gyysk6h7",
+          "ChIJP-qfrgYJxkcRCVdCvC9uhP0",
+          "5191805134427576737",
+          "106798368562967516087"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 2,
+    "review_rating": 5,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "Jacobsz Consultancy B.V.",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": ""
+  },
+  {
+    "about": null,
+    "address": "Herengracht 339, 1016 AJ Amsterdam",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Breakfast restaurant",
+      "Wine bar"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c233f335d9:0x656298a67c03d996",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.3694444,
+    "link": "",
+    "longitude": 4.8872222,
+    "longtitude": 4.8872222,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Monday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Saturday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Sunday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Thursday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Tuesday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ],
+      "Wednesday": [
+        "7–11 am",
+        "12–3:30 pm",
+        "5:30–10 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0205550255",
+    "place_id": "",
+    "plus_code": "9F469V9P+QV",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoECAQQBQ",
+      [
+        "Herengracht 339",
+        "1016 AJ Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJ2TXzM8IJxkcRltkDfKaYYmU&q=restaurant&authuser=0&hl=en&gl=NL",
+          "1.150 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoECAQQFA"
+        ],
+        null,
+        null,
+        null,
+        4.7,
+        1150
+      ],
+      null,
+      null,
+      [
+        "https://brasserieambassade.nl/",
+        "brasserieambassade.nl",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoECAQQFQ"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.3694444,
+        4.8872222
+      ],
+      "0x47c609c233f335d9:0x656298a67c03d996",
+      "Brasserie Ambassade",
+      null,
+      [
+        "Restaurant",
+        "Bar",
+        "Breakfast restaurant",
+        "Wine bar"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "Brasserie Ambassade, Herengracht 339, 1016 AJ Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BAgEECM"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BAgEECQ"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BAgEECU"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BAgEECY"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BAgEECc"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKBJ6BAgEECI"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Fine dining on the waterfront",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "Buzzy canalside terrace & sleek room for elevated tasting menus featuring seasonal products.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609c233f335d9:0x656298a67c03d996%7C/g/11bwhb4bbz%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Herengracht 339, 1016 AJ Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "https://brasserieambassade.nl/",
+          "brasserieambassade.nl",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ2ZABKBF6BAgEECE"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            1,
+            null,
+            [
+              [
+                [
+                  "brasserieambassade.nl"
+                ],
+                [
+                  null,
+                  null,
+                  [
+                    "https://brasserieambassade.nl/",
+                    [
+                      "https://brasserieambassade.nl/",
+                      null,
+                      null,
+                      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQtxwoAHoECAQQKQ"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            null,
+            21631,
+            [
+              "Reserve a table",
+              [
+                null,
+                null,
+                [
+                  "https://www.google.com/maps/reserve/v/dine/c/K5qJLkTBzZE?source=pa&opi=79508299&hl=en-NL&gei=uGDHaqKiOOv_7_UPtJ6ZoQM&ahbb=1&sourceurl=https://maps.google.com/search?authuser%3D0%26hl%3Den%26pb%3D!4m12!1m3!1d45.576450!2d4.8871!3d52.3691!2m3!1f0!2f0!3f0!3m2!1i1000!2i1000!4f20.0!7i20!8i0!10b1!12m22!1m3!18b1!30b1!34e1!2m3!5m1!6e2!20e3!4b0!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!19m4!2m3!1i360!2i120!4i8%26q%3Drestaurant%26tbm%3Dmap"
+                ]
+              ],
+              0,
+              64,
+              41902,
+              null,
+              null,
+              "Reserve a table",
+              null,
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQrscCKAF6BAgEECo",
+              "Reserve",
+              null,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              0
+            ],
+            1,
+            null,
+            0
+          ]
+        ]
+      ],
+      null,
+      null,
+      "ChIJ2TXzM8IJxkcRltkDfKaYYmU",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Herengracht 339",
+        "Herengracht 339",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Fine dining on the waterfront",
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "Brasserie Ambassade",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/11bwhb4bbz",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_seating",
+                "Wheelchair-accessible seating",
+                [
+                  1,
+                  [
+                    [
+                      1,
+                      "Wheelchair-accessible seating"
+                    ]
+                  ],
+                  [
+                    1,
+                    "Wheelchair-accessible seating",
+                    "Wheelchair-accessible seating",
+                    "Has wheelchair-accessible seating"
+                  ]
+                ],
+                null,
+                [
+                  4
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+                "Wheelchair-accessible entrance",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible entrance"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible entrance",
+                    "Wheelchair-accessible entrance",
+                    "No wheelchair-accessible entrance"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh6.googleusercontent.com/-5Nw6biapEpI/AAAAAAAAAAI/AAAAAAAAAAA/tjVyE36SDlw/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 555 0255",
+          [
+            [
+              "020 555 0255",
+              1
+            ],
+            [
+              "+31 20 555 0255",
+              2
+            ]
+          ],
+          null,
+          "0205550255",
+          null,
+          [
+            "tel:0205550255",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BAgEEBE"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "7579050486619891547",
+        "100520888797364797044"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "Brasserie Ambassade"
+              ],
+              [
+                "Herengracht 339"
+              ],
+              [
+                "1016 AJ Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "Brasserie Ambassade, Herengracht 339, 1016 AJ Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Herengracht 339, 1016 AJ Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Herengracht 339",
+          "Herengracht 339",
+          "Amsterdam",
+          "1016 AJ",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA96BAgEEBc",
+            [
+              "LGBTQ+ friendly"
+            ],
+            null,
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ]
+        ],
+        null,
+        [
+          [
+            4,
+            [
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA56BAgEEBY",
+              [
+                "LGBTQ+ friendly"
+              ],
+              null,
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              1
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "7–11 am",
+                [
+                  [
+                    7
+                  ],
+                  [
+                    11
+                  ]
+                ]
+              ],
+              [
+                "12–3:30 pm",
+                [
+                  [
+                    12
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ]
+              ],
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          1,
+          4,
+          null,
+          [
+            "Closed · Opens 12 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Closed · Opens 12 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            11,
+            30
+          ],
+          [
+            "Closed",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      null,
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSAQpyZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwV1QxcHVXVEpWYm1oeFZrVlNabUpXY0dGT1JXeFNUbXQ0ZG1WWFl4QULgAQD6AQUI3AEQMA",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c233f335d9:0x656298a67c03d996",
+          null,
+          null,
+          "/g/11bwhb4bbz",
+          "ChIJ2TXzM8IJxkcRltkDfKaYYmU",
+          "7579050486619891547",
+          "100520888797364797044"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 1150,
+    "review_rating": 4.7,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "Brasserie Ambassade",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "https://brasserieambassade.nl/"
+  },
+  {
+    "about": null,
+    "address": "Singel 404, 1016 AK Amsterdam",
+    "categories": [
+      "Lunch restaurant",
+      "Cafe"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c2254f3d5f:0xa7f8fb08a049d4c0",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.368914999999994,
+    "link": "",
+    "longitude": 4.8874492,
+    "longtitude": 4.8874492,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "8 am–6 pm"
+      ],
+      "Monday": [
+        "8 am–6 pm"
+      ],
+      "Saturday": [
+        "8 am–6 pm"
+      ],
+      "Sunday": [
+        "8 am–6 pm"
+      ],
+      "Thursday": [
+        "8 am–6 pm"
+      ],
+      "Tuesday": [
+        "8 am–6 pm"
+      ],
+      "Wednesday": [
+        "8 am–6 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0204280154",
+    "place_id": "",
+    "plus_code": "9F469V9P+HX",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoFCAQQkwE",
+      [
+        "Singel 404",
+        "1016 AK Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJXz1PJcIJxkcRwNRJoAj7-Kc&q=restaurant&authuser=0&hl=en&gl=NL",
+          "1.023 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQogE"
+        ],
+        null,
+        null,
+        null,
+        4.4,
+        1023
+      ],
+      null,
+      null,
+      [
+        "http://www.singel404.nl/",
+        "singel404.nl",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoFCAQQowE"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.368914999999994,
+        4.8874492
+      ],
+      "0x47c609c2254f3d5f:0xa7f8fb08a049d4c0",
+      "Eetcafe Singel 404",
+      null,
+      [
+        "Lunch restaurant",
+        "Cafe"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "Eetcafe Singel 404, Singel 404, 1016 AK Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEEK4B"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEEK8B"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEELAB"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEELEB"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEELIB"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKA96BQgEEK0B"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Established waterfront lunch spot",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "Long-running daytime cafe with coffee, cocktails & lunch fare, plus terrace seats along the canal.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609c2254f3d5f:0xa7f8fb08a049d4c0%7C/g/1thzs_92%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Singel 404, 1016 AK Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            1,
+            null,
+            null,
+            null,
+            21631,
+            [
+              "Reserve a table",
+              [
+                null,
+                null,
+                [
+                  "https://www.google.com/maps/reserve/v/dine/c/eV39F4C_U-Y?source=pa&opi=79508299&hl=en-NL&gei=uGDHaqKiOOv_7_UPtJ6ZoQM&ahbb=1&sourceurl=https://maps.google.com/search?authuser%3D0%26hl%3Den%26pb%3D!4m12!1m3!1d45.576450!2d4.8871!3d52.3691!2m3!1f0!2f0!3f0!3m2!1i1000!2i1000!4f20.0!7i20!8i0!10b1!12m22!1m3!18b1!30b1!34e1!2m3!5m1!6e2!20e3!4b0!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!19m4!2m3!1i360!2i120!4i8%26q%3Drestaurant%26tbm%3Dmap"
+                ]
+              ],
+              1,
+              64,
+              41902,
+              null,
+              null,
+              "Reserve a table",
+              null,
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQrscCKAB6BQgEELQB",
+              "Reserve",
+              null,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              0
+            ],
+            1,
+            null,
+            0
+          ]
+        ]
+      ],
+      null,
+      null,
+      "ChIJXz1PJcIJxkcRwNRJoAj7-Kc",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Singel 404",
+        "Singel 404",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Established waterfront lunch spot",
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "Eetcafe Singel 404",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/1thzs_92",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh4.googleusercontent.com/-dDft_ubcaiw/AAAAAAAAAAI/AAAAAAAAAAA/h6PeyriOHUM/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 428 0154",
+          [
+            [
+              "020 428 0154",
+              1
+            ],
+            [
+              "+31 20 428 0154",
+              2
+            ]
+          ],
+          null,
+          "0204280154",
+          null,
+          [
+            "tel:0204280154",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BQgEEJ8B"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "11803636001852060248",
+        "104177850660812030313"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "Eetcafe Singel 404"
+              ],
+              [
+                "Singel 404"
+              ],
+              [
+                "1016 AK Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "Eetcafe Singel 404, Singel 404, 1016 AK Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Singel 404, 1016 AK Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Singel 404",
+          "Singel 404",
+          "Amsterdam",
+          "1016 AK",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "8 am–6 pm",
+                [
+                  [
+                    8
+                  ],
+                  [
+                    18
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          1,
+          null,
+          [
+            "Open · Closes 6 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Open · Closes 6 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            17
+          ],
+          [
+            "Open",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3689207,
+          4.8874675
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARBsdW5jaF9yZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5JY0VsUFdqSkJSUkFC4AEA-gEECCMQOw",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c2254f3d5f:0xa7f8fb08a049d4c0",
+          null,
+          null,
+          "/g/1thzs_92",
+          "ChIJXz1PJcIJxkcRwNRJoAj7-Kc",
+          "11803636001852060248",
+          "104177850660812030313"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 1023,
+    "review_rating": 4.4,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "Eetcafe Singel 404",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "http://www.singel404.nl/"
+  },
+  {
+    "about": null,
+    "address": "Wijde Heisteeg 1, 1016 AS Amsterdam",
+    "categories": [
+      "Lebanese restaurant",
+      "Restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c23b38d5f9:0x74addf4661586f23",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.368703599999996,
+    "link": "",
+    "longitude": 4.8873204,
+    "longtitude": 4.8873204,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "11:30 am–8 pm"
+      ],
+      "Monday": [
+        "11:30 am–8 pm"
+      ],
+      "Saturday": [
+        "11:30 am–8 pm"
+      ],
+      "Sunday": [
+        "11:30 am–8 pm"
+      ],
+      "Thursday": [
+        "11:30 am–8 pm"
+      ],
+      "Tuesday": [
+        "11:30 am–8 pm"
+      ],
+      "Wednesday": [
+        "11:30 am–8 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0207373386",
+    "place_id": "",
+    "plus_code": "9F469V9P+FW",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoFCAQQ2QE",
+      [
+        "Wijde Heisteeg 1",
+        "1016 AS Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJ-dU4O8IJxkcRI29YYUbfrXQ&q=restaurant&authuser=0&hl=en&gl=NL",
+          "3.342 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQ6AE"
+        ],
+        null,
+        null,
+        null,
+        4.6,
+        3342
+      ],
+      null,
+      null,
+      [
+        "http://www.thesajeria.com/",
+        "thesajeria.com",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoFCAQQ6QE"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.368703599999996,
+        4.8873204
+      ],
+      "0x47c609c23b38d5f9:0x74addf4661586f23",
+      "The Lebanese Sajeria",
+      null,
+      [
+        "Lebanese restaurant",
+        "Restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "The Lebanese Sajeria, Wijde Heisteeg 1, 1016 AS Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEEPQB"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEEPUB"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEEPYB"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEEPcB"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEEPgB"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKA96BQgEEPMB"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Wijde Heisteeg 1, 1016 AS Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ChIJ-dU4O8IJxkcRI29YYUbfrXQ",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Wijde Heisteeg 1",
+        "Wijde Heisteeg 1",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "The Lebanese Sajeria",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/11c5qtbgbs",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+                "Wheelchair-accessible entrance",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible entrance"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible entrance",
+                    "Wheelchair-accessible entrance",
+                    "No wheelchair-accessible entrance"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_seating",
+                "Wheelchair-accessible seating",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible seating"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible seating",
+                    "Wheelchair-accessible seating",
+                    "No wheelchair-accessible seating"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh4.googleusercontent.com/-SaYLZLmDDko/AAAAAAAAAAI/AAAAAAAAAAA/4qeQHCT5V9c/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        0
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 737 3386",
+          [
+            [
+              "020 737 3386",
+              1
+            ],
+            [
+              "+31 20 737 3386",
+              2
+            ]
+          ],
+          null,
+          "0207373386",
+          null,
+          [
+            "tel:0207373386",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BQgEEOUB"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "8680391698248888050",
+        "106780681315983449501"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "The Lebanese Sajeria"
+              ],
+              [
+                "Wijde Heisteeg 1"
+              ],
+              [
+                "1016 AS Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "The Lebanese Sajeria, Wijde Heisteeg 1, 1016 AS Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Wijde Heisteeg 1, 1016 AS Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Wijde Heisteeg 1",
+          "Wijde Heisteeg 1",
+          "Amsterdam",
+          "1016 AS",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "11:30 am–8 pm",
+                [
+                  [
+                    11,
+                    30
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          4,
+          null,
+          [
+            "Opens soon · 11:30 am",
+            [
+              [
+                0,
+                10,
+                [
+                  null,
+                  [
+                    4288635144,
+                    4294949673
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Opens soon · 11:30 am",
+            [
+              [
+                0,
+                10,
+                [
+                  null,
+                  [
+                    4288635144,
+                    4294949673
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            11,
+            30
+          ],
+          [
+            "Closed",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3687305,
+          4.8873223999999995
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARNsZWJhbmVzZV9yZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxemRGZEdUbkpoYXpGRFZWWlNabFF4T1U1UmF6RmhaRVJTUkU1SFl4QULgAQD6AQQIABBL",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c23b38d5f9:0x74addf4661586f23",
+          null,
+          null,
+          "/g/11c5qtbgbs",
+          "ChIJ-dU4O8IJxkcRI29YYUbfrXQ",
+          "8680391698248888050",
+          "106780681315983449501"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 3342,
+    "review_rating": 4.6,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "The Lebanese Sajeria",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "http://www.thesajeria.com/"
+  },
+  {
+    "about": null,
+    "address": "Singel 379A, 1012 WL Amsterdam",
+    "categories": [
+      "Cafe",
+      "Coffee shop",
+      "Coffee stand",
+      "Dessert shop",
+      "Japanese restaurant",
+      "Korean restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609612df6a19b:0xe040af2ed5fe72b5",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.3689865,
+    "link": "",
+    "longitude": 4.8883166,
+    "longtitude": 4.8883166,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "9 am–8 pm"
+      ],
+      "Monday": [
+        "9 am–7 pm"
+      ],
+      "Saturday": [
+        "9 am–8 pm"
+      ],
+      "Sunday": [
+        "9 am–8 pm"
+      ],
+      "Thursday": [
+        "9 am–7 pm"
+      ],
+      "Tuesday": [
+        "9 am–7 pm"
+      ],
+      "Wednesday": [
+        "9 am–7 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0642904865",
+    "place_id": "",
+    "plus_code": "9F469V9Q+H8",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoECAQQcw",
+      [
+        "Singel 379A",
+        "1012 WL Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJm6H2LWEJxkcRtXL-1S6vQOA&q=restaurant&authuser=0&hl=en&gl=NL",
+          "711 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQggE"
+        ],
+        null,
+        null,
+        null,
+        4.8,
+        711
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        52.3689865,
+        4.8883166
+      ],
+      "0x47c609612df6a19b:0xe040af2ed5fe72b5",
+      "Café Magari",
+      null,
+      [
+        "Cafe",
+        "Coffee shop",
+        "Coffee stand",
+        "Dessert shop",
+        "Japanese restaurant",
+        "Korean restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "Café Magari, Singel 379A, 1012 WL Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEEI0B"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEEI4B"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEEI8B"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEEJAB"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEEJEB"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKA56BQgEEIwB"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Singel 379A, 1012 WL Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ChIJm6H2LWEJxkcRtXL-1S6vQOA",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Singel 379A",
+        "Singel 379A",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Brunch",
+        "SearchResult.TYPE_CAFE",
+        [
+          "SearchResult.TYPE_CAFE",
+          "NL",
+          58,
+          84,
+          85,
+          151
+        ],
+        "Café Magari",
+        [
+          null,
+          null,
+          197,
+          198,
+          1177,
+          568
+        ]
+      ],
+      "/g/11lh5r7lrz",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+                "Wheelchair-accessible entrance",
+                [
+                  1,
+                  [
+                    [
+                      1,
+                      "Wheelchair-accessible entrance"
+                    ]
+                  ],
+                  [
+                    1,
+                    "Wheelchair-accessible entrance",
+                    "Wheelchair-accessible entrance",
+                    "Has wheelchair-accessible entrance"
+                  ]
+                ],
+                null,
+                [
+                  4
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_hearing_loop",
+                "Assistive hearing loop",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      " Does not have assistive hearing loop"
+                    ]
+                  ],
+                  [
+                    0,
+                    " Does not have assistive hearing loop",
+                    "Assistive hearing loop",
+                    " Does not have assistive hearing loop"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_seating",
+                "Wheelchair-accessible seating",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible seating"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible seating",
+                    "Wheelchair-accessible seating",
+                    "No wheelchair-accessible seating"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_restroom",
+                "Wheelchair-accessible toilet",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible toilet"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible toilet",
+                    "Wheelchair-accessible toilet",
+                    "No wheelchair-accessible toilet"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "nl",
+      null,
+      "English",
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh4.googleusercontent.com/-Ps_XznLgUoQ/AAAAAAAAAAI/AAAAAAAAAAA/um_SfrT0z2w/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "06 42904865",
+          [
+            [
+              "06 42904865",
+              1
+            ],
+            [
+              "+31 6 42904865",
+              2
+            ]
+          ],
+          null,
+          "0642904865",
+          null,
+          [
+            "tel:0642904865",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BAgEEH8"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "2543061053957721806",
+        "105844369852901532790"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "Café Magari"
+              ],
+              [
+                "Singel 379A"
+              ],
+              [
+                "1012 WL Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "Café Magari, Singel 379A, 1012 WL Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Singel 379A, 1012 WL Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Singel 379A",
+          "Singel 379A",
+          "Amsterdam",
+          "1012 WL",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "9 am–7 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    19
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "9 am–8 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "9 am–8 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "9 am–8 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    20
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "9 am–7 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    19
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "9 am–7 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    19
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "9 am–7 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    19
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "9 am–7 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    19
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          1,
+          null,
+          [
+            "Open · Closes 7 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Open · Closes 7 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            18
+          ],
+          [
+            "Open",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3689865,
+          4.8883166
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSAQRjYWZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF0ZG1aTFNIRlJSUkFC4AEA-gEECAAQSg",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609612df6a19b:0xe040af2ed5fe72b5",
+          null,
+          null,
+          "/g/11lh5r7lrz",
+          "ChIJm6H2LWEJxkcRtXL-1S6vQOA",
+          "2543061053957721806",
+          "105844369852901532790"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 711,
+    "review_rating": 4.8,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "Café Magari",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": ""
+  },
+  {
+    "about": null,
+    "address": "Spuistraat 294-302, 1012 VX Amsterdam",
+    "categories": [
+      "European restaurant",
+      "Fine dining restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c17f68acf1:0x5980418ad3ad18ec",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.369372999999996,
+    "link": "",
+    "longitude": 4.888304499999999,
+    "longtitude": 4.888304499999999,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "5:30–10 pm"
+      ],
+      "Monday": [
+        "5:30–10 pm"
+      ],
+      "Saturday": [
+        "5:30–10 pm"
+      ],
+      "Sunday": [
+        "5:30–10 pm"
+      ],
+      "Thursday": [
+        "5:30–10 pm"
+      ],
+      "Tuesday": [
+        "5:30–10 pm"
+      ],
+      "Wednesday": [
+        "5:30–10 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0205304060",
+    "place_id": "",
+    "plus_code": "9F469V9Q+P8",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoFCAQQtQM",
+      [
+        "Spuistraat 294-302",
+        "1012 VX Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJ8axof8EJxkcR7Bit04pBgFk&q=restaurant&authuser=0&hl=en&gl=NL",
+          "1.714 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQxAM"
+        ],
+        null,
+        null,
+        null,
+        4.4,
+        1714
+      ],
+      null,
+      null,
+      [
+        "http://vijffvlieghen.nl/",
+        "vijffvlieghen.nl",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoFCAQQxQM"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.369372999999996,
+        4.888304499999999
+      ],
+      "0x47c609c17f68acf1:0x5980418ad3ad18ec",
+      "d'Vijff Vlieghen",
+      null,
+      [
+        "European restaurant",
+        "Fine dining restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "d'Vijff Vlieghen, Spuistraat 294-302, 1012 VX Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEENED"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEENID"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEENMD"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEENQD"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEENUD"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKBB6BQgEENAD"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Traditional Dutch dining in 1600s houses",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "A maze of lavishly decorated dining rooms over 5 1600s canal houses serving classic Dutch dishes.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609c17f68acf1:0x5980418ad3ad18ec%7C/g/1tf7fw6k%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Spuistraat 294-302, 1012 VX Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "https://bookings.zenchef.com/results?rid=379882&pid=1001",
+          "zenchef.com",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ2ZABKA96BQgEEM8D"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            1,
+            null,
+            [
+              [
+                [
+                  "zenchef.com"
+                ],
+                [
+                  null,
+                  null,
+                  [
+                    "https://bookings.zenchef.com/results?rid=379882&pid=1001",
+                    [
+                      "https://bookings.zenchef.com/results?rid=379882&pid=1001",
+                      null,
+                      null,
+                      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQtxwoAHoFCAQQ1wM"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            null,
+            21631,
+            [
+              "Reserve a table",
+              [
+                null,
+                null,
+                [
+                  "https://www.google.com/maps/reserve/v/dine/c/H9_Z7Qriy0Q?source=pa&opi=79508299&hl=en-NL&gei=uGDHaqKiOOv_7_UPtJ6ZoQM&ahbb=1&sourceurl=https://maps.google.com/search?authuser%3D0%26hl%3Den%26pb%3D!4m12!1m3!1d45.576450!2d4.8871!3d52.3691!2m3!1f0!2f0!3f0!3m2!1i1000!2i1000!4f20.0!7i20!8i0!10b1!12m22!1m3!18b1!30b1!34e1!2m3!5m1!6e2!20e3!4b0!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!19m4!2m3!1i360!2i120!4i8%26q%3Drestaurant%26tbm%3Dmap"
+                ]
+              ],
+              0,
+              64,
+              41902,
+              null,
+              null,
+              "Reserve a table",
+              null,
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQrscCKAF6BQgEENgD",
+              "Reserve",
+              null,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              0
+            ],
+            1,
+            null,
+            0
+          ]
+        ]
+      ],
+      null,
+      null,
+      "ChIJ8axof8EJxkcR7Bit04pBgFk",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Spuistraat 294-302",
+        "Spuistraat 294-302",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Traditional Dutch dining in 1600s houses",
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "d'Vijff Vlieghen",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/1tf7fw6k",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh4.googleusercontent.com/-iCQpXAtjkrg/AAAAAAAAAAI/AAAAAAAAAAA/6XMa0BnOeSk/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 530 4060",
+          [
+            [
+              "020 530 4060",
+              1
+            ],
+            [
+              "+31 20 530 4060",
+              2
+            ]
+          ],
+          null,
+          "0205304060",
+          null,
+          [
+            "tel:0205304060",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BQgEEMED"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "12111002890817397415",
+        "110777450135140388248"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "d'Vijff Vlieghen"
+              ],
+              [
+                "Spuistraat 294-302"
+              ],
+              [
+                "1012 VX Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "d'Vijff Vlieghen, Spuistraat 294-302, 1012 VX Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Spuistraat 294-302, 1012 VX Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Spuistraat 294-302",
+          "Spuistraat 294-302",
+          "Amsterdam",
+          "1012 VX",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "5:30–10 pm",
+                [
+                  [
+                    17,
+                    30
+                  ],
+                  [
+                    22
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          4,
+          null,
+          [
+            "Closed · Opens 5:30 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Closed · Opens 5:30 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            17
+          ],
+          [
+            "Closed",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3693744,
+          4.8883109
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARNldXJvcGVhbl9yZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVExTm1GNVYzZG5SUkFC4AEA-gEECAAQSA",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c17f68acf1:0x5980418ad3ad18ec",
+          null,
+          null,
+          "/g/1tf7fw6k",
+          "ChIJ8axof8EJxkcR7Bit04pBgFk",
+          "12111002890817397415",
+          "110777450135140388248"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 1714,
+    "review_rating": 4.4,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "d'Vijff Vlieghen",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "http://vijffvlieghen.nl/"
+  },
+  {
+    "about": null,
+    "address": "Herengracht 319, 1016 AV Amsterdam",
+    "categories": [
+      "Dutch restaurant",
+      "Bar",
+      "Beer hall",
+      "Cafe",
+      "Lunch restaurant",
+      "Restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c3cbed230f:0x5a50876e21ea908e",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.3699677,
+    "link": "",
+    "longitude": 4.8872316,
+    "longtitude": 4.8872316,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "10 am–12 am"
+      ],
+      "Monday": [
+        "10 am–11:30 pm"
+      ],
+      "Saturday": [
+        "10 am–12 am"
+      ],
+      "Sunday": [
+        "10 am–11:30 pm"
+      ],
+      "Thursday": [
+        "10 am–11:30 pm"
+      ],
+      "Tuesday": [
+        "10 am–11:30 pm"
+      ],
+      "Wednesday": [
+        "10 am–11:30 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0206254334",
+    "place_id": "",
+    "plus_code": "9F469V9P+XV",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoECAQQLA",
+      [
+        "Herengracht 319",
+        "1016 AV Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJDyPty8MJxkcRjpDqIW6HUFo&q=restaurant&authuser=0&hl=en&gl=NL",
+          "3.209 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoECAQQOw"
+        ],
+        null,
+        null,
+        null,
+        4.6,
+        3209
+      ],
+      null,
+      null,
+      [
+        "http://www.proeflokaalvanwees.nl/",
+        "proeflokaalvanwees.nl",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoECAQQPA"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.3699677,
+        4.8872316
+      ],
+      "0x47c609c3cbed230f:0x5a50876e21ea908e",
+      "A. van Wees Tasting Locality",
+      null,
+      [
+        "Dutch restaurant",
+        "Bar",
+        "Beer hall",
+        "Cafe",
+        "Lunch restaurant",
+        "Restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "A. van Wees Tasting Locality, Herengracht 319, 1016 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BAgEEEo"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BAgEEEs"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BAgEEEw"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BAgEEE0"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BAgEEE4"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKBJ6BAgEEEk"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Old-school haunt with liquors & pub fare",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "Former-distillery-turned-pub offering liquor tastings, French wines & classic fare in a cozy space.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609c3cbed230f:0x5a50876e21ea908e%7C/g/1jmcv02vj%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Herengracht 319, 1016 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "https://www.proeflokaalvanwees.nl/#reserveren",
+          "proeflokaalvanwees.nl",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ2ZABKBF6BAgEEEg"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            1,
+            null,
+            [
+              [
+                [
+                  "proeflokaalvanwees.nl"
+                ],
+                [
+                  null,
+                  null,
+                  [
+                    "https://www.proeflokaalvanwees.nl/#reserveren",
+                    [
+                      "https://www.proeflokaalvanwees.nl/#reserveren",
+                      null,
+                      null,
+                      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQtxwoAHoECAQQUA"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            null,
+            21631
+          ]
+        ]
+      ],
+      null,
+      null,
+      "ChIJDyPty8MJxkcRjpDqIW6HUFo",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Herengracht 319",
+        "Herengracht 319",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Old-school haunt with liquors & pub fare",
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "A. van Wees Tasting Locality",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/1jmcv02vj",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+                "Wheelchair-accessible entrance",
+                [
+                  1,
+                  [
+                    [
+                      1,
+                      "Wheelchair-accessible entrance"
+                    ]
+                  ],
+                  [
+                    1,
+                    "Wheelchair-accessible entrance",
+                    "Wheelchair-accessible entrance",
+                    "Has wheelchair-accessible entrance"
+                  ]
+                ],
+                null,
+                [
+                  4
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_seating",
+                "Wheelchair-accessible seating",
+                [
+                  1,
+                  [
+                    [
+                      1,
+                      "Wheelchair-accessible seating"
+                    ]
+                  ],
+                  [
+                    1,
+                    "Wheelchair-accessible seating",
+                    "Wheelchair-accessible seating",
+                    "Has wheelchair-accessible seating"
+                  ]
+                ],
+                null,
+                [
+                  4
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      "Proeflokaal A. van Wees",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "en",
+      "nl",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh5.googleusercontent.com/-lVAQmhjoYuQ/AAAAAAAAAAI/AAAAAAAAAAA/NJh_oy67890/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 625 4334",
+          [
+            [
+              "020 625 4334",
+              1
+            ],
+            [
+              "+31 20 625 4334",
+              2
+            ]
+          ],
+          null,
+          "0206254334",
+          null,
+          [
+            "tel:0206254334",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BAgEEDg"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "6883441222960922657",
+        "114746662430081242612"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "A. van Wees Tasting Locality"
+              ],
+              [
+                "Herengracht 319"
+              ],
+              [
+                "1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "A. van Wees Tasting Locality, Herengracht 319, 1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Herengracht 319, 1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Herengracht 319",
+          "Herengracht 319",
+          "Amsterdam",
+          "1016 AV",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA96BAgEED4",
+            [
+              "LGBTQ+ friendly"
+            ],
+            null,
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ]
+        ],
+        null,
+        [
+          [
+            4,
+            [
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA56BAgEED0",
+              [
+                "LGBTQ+ friendly"
+              ],
+              null,
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              1
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "10 am–12 am",
+                [
+                  [
+                    10
+                  ],
+                  []
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "10 am–12 am",
+                [
+                  [
+                    10
+                  ],
+                  []
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "10 am–11:30 pm",
+                [
+                  [
+                    10
+                  ],
+                  [
+                    23,
+                    30
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          1,
+          null,
+          [
+            "Open · Closes 11:30 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Open · Closes 11:30 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            22,
+            30
+          ],
+          [
+            "Open",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      null,
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARBkdXRjaF9yZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJZYW5OUU5XRkJFQUXgAQD6AQQIJRA7",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c3cbed230f:0x5a50876e21ea908e",
+          null,
+          null,
+          "/g/1jmcv02vj",
+          "ChIJDyPty8MJxkcRjpDqIW6HUFo",
+          "6883441222960922657",
+          "114746662430081242612"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 3209,
+    "review_rating": 4.6,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "A. van Wees Tasting Locality",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "http://www.proeflokaalvanwees.nl/"
+  },
+  {
+    "about": null,
+    "address": "Heisteeg 3, 1012 WC Amsterdam",
+    "categories": [
+      "Fast food restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c188501409:0x282c43af837178a3",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.368786,
+    "link": "",
+    "longitude": 4.8884229999999995,
+    "longtitude": 4.8884229999999995,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "11 am–9 pm"
+      ],
+      "Monday": [
+        "11 am–9 pm"
+      ],
+      "Saturday": [
+        "11 am–9 pm"
+      ],
+      "Sunday": [
+        "11 am–9 pm"
+      ],
+      "Thursday": [
+        "11 am–9 pm"
+      ],
+      "Tuesday": [
+        "11 am–9 pm"
+      ],
+      "Wednesday": [
+        "11 am–9 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "",
+    "place_id": "",
+    "plus_code": "9F469V9Q+G9",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoFCAQQlAU",
+      [
+        "Heisteeg 3",
+        "1012 WC Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJCRRQiMEJxkcRo3hxg69DLCg&q=restaurant&authuser=0&hl=en&gl=NL",
+          "1.460 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQnwU"
+        ],
+        null,
+        null,
+        null,
+        4.4,
+        1460
+      ],
+      null,
+      null,
+      [
+        "https://www.tpareltje.com/",
+        "tpareltje.com",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goCXoFCAQQoAU"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.368786,
+        4.8884229999999995
+      ],
+      "0x47c609c188501409:0x282c43af837178a3",
+      "‘t Pareltje",
+      null,
+      [
+        "Fast food restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "‘t Pareltje, Heisteeg 3, 1012 WC Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEEK0F"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEEK4F"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEEK8F"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEELAF"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEELEF"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKA16BQgEEKwF"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Heisteeg 3, 1012 WC Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ChIJCRRQiMEJxkcRo3hxg69DLCg",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Heisteeg 3",
+        "Heisteeg 3",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Dogs allowed",
+        "SearchResult.TYPE_FAST_FOOD",
+        [
+          "SearchResult.TYPE_FAST_FOOD",
+          "NL",
+          56,
+          84,
+          85,
+          151
+        ],
+        "‘t Pareltje",
+        [
+          null,
+          null,
+          613,
+          614,
+          1192,
+          612
+        ]
+      ],
+      "/g/11ggzg8mtw",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+                "Wheelchair-accessible entrance",
+                [
+                  1,
+                  [
+                    [
+                      1,
+                      "Wheelchair-accessible entrance"
+                    ]
+                  ],
+                  [
+                    1,
+                    "Wheelchair-accessible entrance",
+                    "Wheelchair-accessible entrance",
+                    "Has wheelchair-accessible entrance"
+                  ]
+                ],
+                null,
+                [
+                  4
+                ],
+                0
+              ],
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "nl",
+      null,
+      "English",
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh6.googleusercontent.com/-BZ3G4SFCi9I/AAAAAAAAAAI/AAAAAAAAAAA/ip1e017rkrk/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "12039074682472322684",
+        "110459751304842896780"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "‘t Pareltje"
+              ],
+              [
+                "Heisteeg 3"
+              ],
+              [
+                "1012 WC Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "‘t Pareltje, Heisteeg 3, 1012 WC Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Heisteeg 3, 1012 WC Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Heisteeg 3",
+          "Heisteeg 3",
+          "Amsterdam",
+          "1012 WC",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKAt6BQgEEKIF",
+            [
+              "LGBTQ+ friendly"
+            ],
+            null,
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ]
+        ],
+        null,
+        [
+          [
+            4,
+            [
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKAp6BQgEEKEF",
+              [
+                "LGBTQ+ friendly"
+              ],
+              null,
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              1
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "11 am–9 pm",
+                [
+                  [
+                    11
+                  ],
+                  [
+                    21
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          1,
+          null,
+          [
+            "Open · Closes 9 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Open · Closes 9 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            20
+          ],
+          [
+            "Open",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      null,
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARRmYXN0X2Zvb2RfcmVzdGF1cmFudJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyNWplR1JYVm1aa2VsWm1WRlk1TlZSV1FUQmFWRVpYWlVoU1UxVnJSUkFC4AEA-gEECHgQKQ",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c188501409:0x282c43af837178a3",
+          null,
+          null,
+          "/g/11ggzg8mtw",
+          "ChIJCRRQiMEJxkcRo3hxg69DLCg",
+          "12039074682472322684",
+          "110459751304842896780"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 1460,
+    "review_rating": 4.4,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "‘t Pareltje",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "https://www.tpareltje.com/"
+  },
+  {
+    "about": null,
+    "address": "Singel 426, 1017 AV Amsterdam",
+    "categories": [
+      "Italian restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609c221f67e09:0x15dd9cd3c7e1b597",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.3683123,
+    "link": "",
+    "longitude": 4.887694,
+    "longtitude": 4.887694,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "12:30–11 pm"
+      ],
+      "Monday": [
+        "5–11 pm"
+      ],
+      "Saturday": [
+        "12:30–11 pm"
+      ],
+      "Sunday": [
+        "12:30–11 pm"
+      ],
+      "Thursday": [
+        "5–11 pm"
+      ],
+      "Tuesday": [
+        "5–11 pm"
+      ],
+      "Wednesday": [
+        "5–11 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0206245093",
+    "place_id": "",
+    "plus_code": "9F469V9Q+83",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoFCAQQ2gM",
+      [
+        "Singel 426",
+        "1017 AV Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJCX72IcIJxkcRl7Xhx9Oc3RU&q=restaurant&authuser=0&hl=en&gl=NL",
+          "2.956 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoFCAQQ6QM"
+        ],
+        null,
+        null,
+        null,
+        4.4,
+        2956
+      ],
+      null,
+      null,
+      [
+        "http://www.casadidavid.com/",
+        "casadidavid.com",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoFCAQQ6gM"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.3683123,
+        4.887694
+      ],
+      "0x47c609c221f67e09:0x15dd9cd3c7e1b597",
+      "Casa di David",
+      null,
+      [
+        "Italian restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "Casa di David, Singel 426, 1017 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BQgEEPgD"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BQgEEPkD"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BQgEEPoD"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BQgEEPsD"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BQgEEPwD"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKBJ6BQgEEPcD"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Traditional Italian dining by the canal",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "Wood-fired pizza & homemade pasta served in a cosy, long-standing restaurant overlooking the canal.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609c221f67e09:0x15dd9cd3c7e1b597%7C/g/1tj5kbnr%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Singel 426, 1017 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "https://casadidavid.com/",
+          "casadidavid.com",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ2ZABKBF6BQgEEPYD"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            1,
+            null,
+            [
+              [
+                [
+                  "casadidavid.com"
+                ],
+                [
+                  null,
+                  null,
+                  [
+                    "https://casadidavid.com/",
+                    [
+                      "https://casadidavid.com/",
+                      null,
+                      null,
+                      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQtxwoAHoFCAQQ_gM"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            null,
+            21631,
+            [
+              "Reserve a table",
+              [
+                null,
+                null,
+                [
+                  "https://www.google.com/maps/reserve/v/dine/c/dzLcpuNDUa8?source=pa&opi=79508299&hl=en-NL&gei=uGDHaqKiOOv_7_UPtJ6ZoQM&ahbb=1&sourceurl=https://maps.google.com/search?authuser%3D0%26hl%3Den%26pb%3D!4m12!1m3!1d45.576450!2d4.8871!3d52.3691!2m3!1f0!2f0!3f0!3m2!1i1000!2i1000!4f20.0!7i20!8i0!10b1!12m22!1m3!18b1!30b1!34e1!2m3!5m1!6e2!20e3!4b0!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!19m4!2m3!1i360!2i120!4i8%26q%3Drestaurant%26tbm%3Dmap"
+                ]
+              ],
+              0,
+              64,
+              41902,
+              null,
+              null,
+              "Reserve a table",
+              null,
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQrscCKAF6BQgEEP8D",
+              "Reserve",
+              null,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              0
+            ],
+            1,
+            null,
+            0
+          ]
+        ]
+      ],
+      null,
+      null,
+      "ChIJCX72IcIJxkcRl7Xhx9Oc3RU",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Singel 426",
+        "Singel 426",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Traditional Italian dining by the canal",
+        "SearchResult.TYPE_ITALIAN_RESTAURANT",
+        [
+          "SearchResult.TYPE_ITALIAN_RESTAURANT",
+          "NL",
+          32,
+          84,
+          85,
+          151
+        ],
+        "Casa di David",
+        [
+          null,
+          null,
+          188,
+          187,
+          1166,
+          186
+        ]
+      ],
+      "/g/1tj5kbnr",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "nl",
+      null,
+      "English",
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh3.googleusercontent.com/-BaX0uak5dBU/AAAAAAAAAAI/AAAAAAAAAAA/VeTjgtID_-E/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 624 5093",
+          [
+            [
+              "020 624 5093",
+              1
+            ],
+            [
+              "+31 20 624 5093",
+              2
+            ]
+          ],
+          null,
+          "0206245093",
+          null,
+          [
+            "tel:0206245093",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BQgEEOYD"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "10414349919685003242",
+        "115105721357338969427"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "Casa di David"
+              ],
+              [
+                "Singel 426"
+              ],
+              [
+                "1017 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "Casa di David, Singel 426, 1017 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Singel 426, 1017 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Singel 426",
+          "Singel 426",
+          "Amsterdam",
+          "1017 AV",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA96BQgEEOwD",
+            [
+              "LGBTQ+ friendly"
+            ],
+            null,
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1
+          ]
+        ],
+        null,
+        [
+          [
+            4,
+            [
+              "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQgLcGKA56BQgEEOsD",
+              [
+                "LGBTQ+ friendly"
+              ],
+              null,
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              "https://gstatic.com/local/placeinfo/lgbtq_friendly_ic_24dp.png",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              1
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "5–11 pm",
+                [
+                  [
+                    17
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "12:30–11 pm",
+                [
+                  [
+                    12,
+                    30
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "12:30–11 pm",
+                [
+                  [
+                    12,
+                    30
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "12:30–11 pm",
+                [
+                  [
+                    12,
+                    30
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "5–11 pm",
+                [
+                  [
+                    17
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "5–11 pm",
+                [
+                  [
+                    17
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "5–11 pm",
+                [
+                  [
+                    17
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "5–11 pm",
+                [
+                  [
+                    17
+                  ],
+                  [
+                    23
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          4,
+          null,
+          [
+            "Closed · Opens 5 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Closed · Opens 5 pm",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            16,
+            30
+          ],
+          [
+            "Closed",
+            [
+              [
+                0,
+                6,
+                [
+                  null,
+                  [
+                    4292030248,
+                    4294097077
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3683335,
+          4.8877657
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARJpdGFsaWFuX3Jlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnRzTUdWdVVYaFZNRTV5VW10V2VHTkVWVFZUVnpWVllUTkNWbEpJWXhBQuABAPoBBAgAEDE",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609c221f67e09:0x15dd9cd3c7e1b597",
+          null,
+          null,
+          "/g/1tj5kbnr",
+          "ChIJCX72IcIJxkcRl7Xhx9Oc3RU",
+          "10414349919685003242",
+          "115105721357338969427"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 2956,
+    "review_rating": 4.4,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "Casa di David",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "http://www.casadidavid.com/"
+  },
+  {
+    "about": null,
+    "address": "Herengracht 309, 1016 AV Amsterdam",
+    "categories": [
+      "Lunch restaurant",
+      "Brunch restaurant"
+    ],
+    "category": "",
+    "cid": "",
+    "complete_address": {
+      "borough": "",
+      "city": "",
+      "country": "",
+      "postal_code": "",
+      "state": "",
+      "street": ""
+    },
+    "credit_cards_accepted": null,
+    "data_id": "0x47c609b5b029083d:0x26a032d406620383",
+    "description": "",
+    "emails": null,
+    "images": null,
+    "input_id": "1042",
+    "latitude": 52.3701364,
+    "link": "",
+    "longitude": 4.8872228,
+    "longtitude": 4.8872228,
+    "menu": {
+      "link": "",
+      "source": ""
+    },
+    "open_hours": {
+      "Friday": [
+        "9 am–5 pm"
+      ],
+      "Monday": [
+        "9 am–5 pm"
+      ],
+      "Saturday": [
+        "9 am–5 pm"
+      ],
+      "Sunday": [
+        "9 am–5 pm"
+      ],
+      "Thursday": [
+        "9 am–5 pm"
+      ],
+      "Tuesday": [
+        "9 am–5 pm"
+      ],
+      "Wednesday": [
+        "9 am–5 pm"
+      ]
+    },
+    "order_online": null,
+    "owner": {
+      "id": "",
+      "link": "",
+      "name": ""
+    },
+    "phone": "0203303226",
+    "place_id": "",
+    "plus_code": "9F469VCP+3V",
+    "popular_times": null,
+    "price_range": "",
+    "raw": [
+      "uGDHaqKiOOv_7_UPtJ6ZoQM",
+      "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ8BcoAHoECAQQUg",
+      [
+        "Herengracht 309",
+        "1016 AV Amsterdam"
+      ],
+      null,
+      [
+        null,
+        null,
+        null,
+        [
+          "https://search.google.com/local/reviews?placeid=ChIJPQgpsLUJxkcRgwNiBtQyoCY&q=restaurant&authuser=0&hl=en&gl=NL",
+          "522 reviews",
+          null,
+          "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ6W4oAXoECAQQYQ"
+        ],
+        null,
+        null,
+        null,
+        4.7,
+        522
+      ],
+      null,
+      null,
+      [
+        "https://www.abcsandwich.nl/",
+        "abcsandwich.nl",
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ61goDXoECAQQYg"
+      ],
+      null,
+      [
+        null,
+        null,
+        52.3701364,
+        4.8872228
+      ],
+      "0x47c609b5b029083d:0x26a032d406620383",
+      "ABC Clubsandwich",
+      null,
+      [
+        "Lunch restaurant",
+        "Brunch restaurant"
+      ],
+      "Amsterdam-Centrum",
+      null,
+      null,
+      null,
+      "ABC Clubsandwich, Herengracht 309, 1016 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          [
+            [
+              1
+            ],
+            "Favorites",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAB6BAgEEG0"
+          ],
+          [
+            [
+              2
+            ],
+            "Want to go",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAF6BAgEEG4"
+          ],
+          [
+            [
+              7
+            ],
+            "Travel plans",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAJ6BAgEEG8"
+          ],
+          [
+            [
+              4
+            ],
+            "Starred places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAN6BAgEEHA"
+          ],
+          [
+            [
+              8
+            ],
+            "Saved places",
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQwaQDKAR6BAgEEHE"
+          ]
+        ],
+        null,
+        null,
+        null,
+        "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ0JcGKA96BAgEEGw"
+      ],
+      null,
+      null,
+      null,
+      null,
+      "Europe/Amsterdam",
+      null,
+      [
+        [
+          null,
+          "Canalside eatery for light fare",
+          null,
+          null,
+          null,
+          1
+        ],
+        [
+          null,
+          "Cozy restaurant by the canal serving up breakfast, pancakes & soups, plus sandwiches & cakes.",
+          null,
+          null,
+          null,
+          1
+        ],
+        null,
+        "https://www.google.com/local/content/rap/report?d=286732321&t=5&postId=0x47c609b5b029083d:0x26a032d406620383%7C/g/11fvw5b5wk%7Cen-NL",
+        "https://support.google.com/local-listings/answer/9851099"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Herengracht 309, 1016 AV Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ChIJPQgpsLUJxkcRgwNiBtQyoCY",
+      null,
+      null,
+      null,
+      [
+        "Amsterdam-Centrum",
+        "Herengracht 309",
+        "Herengracht 309",
+        "Amsterdam"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Canalside eatery for light fare",
+        "SearchResult.TYPE_RESTAURANT",
+        [
+          "SearchResult.TYPE_RESTAURANT",
+          "NL",
+          54,
+          84,
+          85,
+          151
+        ],
+        "ABC Clubsandwich",
+        [
+          null,
+          null,
+          269,
+          270,
+          1228,
+          583
+        ]
+      ],
+      "/g/11fvw5b5wk",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        null,
+        [
+          [
+            "accessibility",
+            "Accessibility",
+            [
+              [
+                "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+                "Wheelchair-accessible car park",
+                [
+                  1,
+                  [
+                    [
+                      0,
+                      "No wheelchair-accessible car park"
+                    ]
+                  ],
+                  [
+                    0,
+                    "No wheelchair-accessible car park",
+                    "Wheelchair-accessible car park",
+                    "No wheelchair-accessible car park"
+                  ]
+                ],
+                1,
+                [
+                  2
+                ],
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "nl",
+      null,
+      "English",
+      "en",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "https://lh6.googleusercontent.com/-wZffu9LnLcU/AAAAAAAAAAI/AAAAAAAAAAA/z82QwXho_Is/s44-p-k-no-ns-nd/photo.jpg",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      "Amsterdam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "020 330 3226",
+          [
+            [
+              "020 330 3226",
+              1
+            ],
+            [
+              "+31 20 330 3226",
+              2
+            ]
+          ],
+          null,
+          "0203303226",
+          null,
+          [
+            "tel:0203303226",
+            null,
+            null,
+            "2ahUKEwii3vacjKqXAxXr_7sIHTRPJjQQ_doBKAt6BAgEEF4"
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "13211080162382068398",
+        "113817219472545682415"
+      ],
+      null,
+      [
+        [
+          [
+            7,
+            [
+              [
+                "ABC Clubsandwich"
+              ],
+              [
+                "Herengracht 309"
+              ],
+              [
+                "1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                "ABC Clubsandwich, Herengracht 309, 1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                "Herengracht 309, 1016 AV Amsterdam"
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                "Amsterdam"
+              ]
+            ]
+          ]
+        ],
+        [
+          "Amsterdam-Centrum",
+          "Herengracht 309",
+          "Herengracht 309",
+          "Amsterdam",
+          "1016 AV",
+          null,
+          "NL"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Friday",
+            5,
+            [
+              2026,
+              10,
+              9
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Saturday",
+            6,
+            [
+              2026,
+              10,
+              10
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Sunday",
+            7,
+            [
+              2026,
+              10,
+              11
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Monday",
+            1,
+            [
+              2026,
+              10,
+              12
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Tuesday",
+            2,
+            [
+              2026,
+              10,
+              13
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          [
+            "Wednesday",
+            3,
+            [
+              2026,
+              10,
+              14
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            "Thursday",
+            4,
+            [
+              2026,
+              10,
+              8
+            ],
+            [
+              [
+                "9 am–5 pm",
+                [
+                  [
+                    9
+                  ],
+                  [
+                    17
+                  ]
+                ]
+              ]
+            ],
+            0,
+            1
+          ],
+          0,
+          1,
+          null,
+          [
+            "Open · Closes 5 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "Open · Closes 5 pm",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ],
+          null,
+          [
+            16
+          ],
+          [
+            "Open",
+            [
+              [
+                0,
+                4,
+                [
+                  null,
+                  [
+                    4281040703,
+                    4285388172
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        4,
+        null,
+        null,
+        null,
+        1
+      ],
+      null,
+      1,
+      null,
+      null,
+      [
+        [
+          null,
+          null,
+          52.3701364,
+          4.8872228
+        ]
+      ],
+      "CgpyZXN0YXVyYW50WgwiCnJlc3RhdXJhbnSSARBsdW5jaF9yZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJKZURSMVRrZEJFQUXgAQD6AQQIABAn",
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "0x47c609b5b029083d:0x26a032d406620383",
+          null,
+          null,
+          "/g/11fvw5b5wk",
+          "ChIJPQgpsLUJxkcRgwNiBtQyoCY",
+          "13211080162382068398",
+          "113817219472545682415"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      0
+    ],
+    "reservations": null,
+    "review_count": 522,
+    "review_rating": 4.7,
+    "reviews_link": "",
+    "reviews_per_rating": null,
+    "status": "",
+    "street_view_url": "",
+    "thumbnail": "",
+    "timezone": "Europe/Amsterdam",
+    "title": "ABC Clubsandwich",
+    "user_reviews": null,
+    "user_reviews_extended": null,
+    "web_site": "https://www.abcsandwich.nl/"
+  }
+]
