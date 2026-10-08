@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math"
 	"net/http"
+	"uuid"
 
-	"github.com/google/uuid"
 	"github.com/gosom/google-maps-scraper/exiter"
 	"github.com/gosom/scrapemate"
 )
@@ -49,7 +49,7 @@ func NewSearchJob(params *MapSearchParams, opts ...SearchJobOptions) *SearchJob 
 
 	job := SearchJob{
 		Job: scrapemate.Job{
-			ID:         uuid.New().String(),
+			ID:         uuid.NewV4().String(),
 			Method:     http.MethodGet,
 			URL:        baseURL,
 			URLParams:  buildGoogleMapsParams(params),
@@ -174,10 +174,10 @@ func buildGoogleMapsParams(params *MapSearchParams) map[string]string {
 	params.ViewportW = 1000
 
 	ans := map[string]string{
-		"tbm":      "map",
-		"authuser": "0",
-		"hl":       params.Hl,
-		"q":        params.Query,
+		"tbm":              "map",
+		"authuser":         "0",
+		languageQueryParam: params.Hl,
+		"q":                params.Query,
 	}
 
 	alt := Altitude(params.ViewportW, params.ViewportH, params.Location.Lat, params.Location.ZoomLvl)

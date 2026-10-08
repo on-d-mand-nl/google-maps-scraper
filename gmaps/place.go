@@ -3,10 +3,12 @@ package gmaps
 import (
 	"context"
 	"fmt"
+	"log"
+	"net/url"
 	"strings"
 	"time"
+	"uuid"
 
-	"github.com/google/uuid"
 	"github.com/gosom/scrapemate"
 
 	"github.com/gosom/google-maps-scraper/exiter"
@@ -30,13 +32,15 @@ func NewPlaceJob(parentID, langCode, u string, extractEmail, extraExtraReviews b
 		defaultMaxRetries = 3
 	)
 
+	u = sanitizePlaceURL(u)
+
 	job := PlaceJob{
 		Job: scrapemate.Job{
-			ID:         uuid.New().String(),
+			ID:         uuid.NewV4().String(),
 			ParentID:   parentID,
-			Method:     "GET",
+			Method:     requestMethodGet,
 			URL:        u,
-			URLParams:  map[string]string{"hl": langCode},
+			URLParams:  map[string]string{languageQueryParam: langCode},
 			MaxRetries: defaultMaxRetries,
 			Priority:   defaultPrio,
 		},
@@ -51,6 +55,34 @@ func NewPlaceJob(parentID, langCode, u string, extractEmail, extraExtraReviews b
 	}
 
 	return &job
+}
+
+// sanitizePlaceURL rewrites the dot-dot segment in a canonical Google Maps
+// place URL so RFC 3986 path normalization cannot remove the "/maps/place/"
+// marker. The URL is parsed only for validation; replacement operates on the
+// raw string to preserve the Maps data payload byte-for-byte.
+func sanitizePlaceURL(rawURL string) string {
+	const (
+		placeMarker     = "/maps/place/../data="
+		sanitizedMarker = "/maps/place/_/data="
+	)
+
+	parsedURL, err := url.Parse(rawURL)
+	if err != nil || parsedURL.Scheme != "https" || parsedURL.User != nil || parsedURL.Port() != "" ||
+		!strings.EqualFold(parsedURL.Hostname(), "www.google.com") {
+		return rawURL
+	}
+
+	if strings.Count(parsedURL.EscapedPath(), placeMarker) != 1 {
+		return rawURL
+	}
+
+	markerIndex := strings.Index(rawURL, placeMarker)
+	if markerIndex < 0 {
+		return rawURL
+	}
+
+	return rawURL[:markerIndex] + sanitizedMarker + rawURL[markerIndex+len(placeMarker):]
 }
 
 func WithPlaceJobExitMonitor(exitMonitor exiter.Exiter) PlaceJobOptions {
@@ -118,7 +150,14 @@ func (j *PlaceJob) Process(_ context.Context, resp *scrapemate.Response) (any, [
 	domReviews, ok := resp.Meta["dom_reviews"].([]DOMReview)
 	if ok && len(domReviews) > 0 {
 		convertedReviews := ConvertDOMReviewsToReviews(domReviews)
-		entry.UserReviewsExtended = append(entry.UserReviewsExtended, convertedReviews...)
+
+		deduped := dedupeDOMReviewsAgainstPrimary(entry.UserReviews, convertedReviews)
+		if len(deduped) != len(convertedReviews) {
+			log.Printf("DOM reviews: dropped %d of %d already present in user_reviews",
+				len(convertedReviews)-len(deduped), len(convertedReviews))
+		}
+
+		entry.UserReviewsExtended = append(entry.UserReviewsExtended, deduped...)
 	}
 
 	if j.ExtractEmail && entry.IsWebsiteValidForEmail() {

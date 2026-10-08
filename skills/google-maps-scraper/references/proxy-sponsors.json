@@ -1,16 +1,17 @@
 [
   {
-    "id": "netnut",
-    "name": "NetNut",
-    "description": "Premium residential proxy network and web data collection infrastructure.",
-    "referral_url": "https://netnut.io/?ref=y2fmmzz",
-    "active": true
-  },
-  {
     "id": "rapidproxy",
     "name": "RapidProxy",
     "description": "Residential proxy provider supporting the Google Maps Scraper project.",
     "referral_url": "https://www.rapidproxy.io/?ref=gosom",
+    "active": true
+  },
+  {
+    "id": "swiftproxy",
+    "name": "Swiftproxy",
+    "description": "Residential proxy provider with 90M+ IPs across 220+ locations.",
+    "referral_url": "https://www.swiftproxy.net/?ref=gosom",
+    "offer": "Use code PROXY90 for 10% off.",
     "active": true
   },
   {
@@ -38,9 +39,9 @@
   {
     "id": "nodemaven",
     "name": "NodeMaven",
-    "description": "Proxies for automation, scraping, SEO research, and social media management.",
-    "referral_url": "https://go.nodemaven.com/GoogleMapsScrapper",
-    "offer": "Use MAPS35 for 35% off Mobile and Residential proxies, or MAPS40 for 40% off ISP Static proxies.",
+    "description": "The most efficient proxy provider for Web Scraping and Automation with the Highest Quality IP on the market.",
+    "referral_url": "https://go.nodemaven.com/GoogleMapsScrapperseptember",
+    "offer": "Use MAPS35 for 35% off to Mobile and Residential Proxies, or MAPS40 for 40% off to ISP (Static) Proxies.",
     "active": true
   },
   {

@@ -53,16 +53,6 @@ If this project is useful to you, a GitHub star helps others discover it. Sponso
 
 <p align="center"><i>This project is made possible by our amazing sponsors</i></p>
 
-### [NetNut – Limitless Web Data Collection](https://netnut.io/?ref=y2fmmzz)
-
-[![NetNut – Limitless Web Data Collection](./img/netnut-banner.png)](https://netnut.io/?ref=y2fmmzz)
-
-Built on a fully owned premium residential proxies network infrastructure powering enterprise-grade Website Unblocker, SERP APIs, LLM scraper, ecommerce data collection, and ready-to-use datasets.
-
-[**Visit NetNut →**](https://netnut.io/?ref=y2fmmzz) | [Learn more](netnut.md)
-
----
-
 ### [Coreclaw](https://www.coreclaw.com/?utm_source=github&utm_medium=referral&utm_campaign=gosom&utm_term=&utm_id=gosom) - Full-stack web scraping and data extraction platform
 
 [![Coreclaw - Full-stack web scraping and data extraction platform](./img/coreclaw.png)](https://www.coreclaw.com/?utm_source=github&utm_medium=referral&utm_campaign=gosom&utm_term=&utm_id=gosom)
@@ -127,6 +117,14 @@ Unlock global access with consistent, high-speed connections from $0.65/GB, 90M+
 
 ---
 
+### [Swiftproxy](https://www.swiftproxy.net/?ref=gosom) - Reliable Residential Proxies for Web Scraping
+
+[![Swiftproxy - Reliable Residential Proxies for Web Scraping](./img/swiftproxy.png)](https://www.swiftproxy.net/?ref=gosom)
+
+Swiftproxy provides 90M+ clean residential IPs across 220+ locations, with HTTP(S)/SOCKS5 support, flexible targeting, and non-expiring traffic. Ideal for web scraping, data collection, and location-based research. Free testing is available, with 10% off using code `PROXY90`. [**Try Swiftproxy now →**](https://www.swiftproxy.net/?ref=gosom)
+
+---
+
 ### [TalorData](https://talordata.com/?campaignid=f01u8cHondg2qA47&utm_source=github&utm_term=googlemaps) - Fast SERP API for Google Maps and Search Data
 
 [![TalorData](./img/talordata.png)](https://talordata.com/?campaignid=f01u8cHondg2qA47&utm_source=github&utm_term=googlemaps)
@@ -161,26 +159,26 @@ Mobile and residential proxies for Google Maps scraping, local SEO, lead generat
 
 ---
 
-### [NodeMaven](https://go.nodemaven.com/GoogleMapsScrapper) - Reliable proxies with high-quality IPs
+### [NodeMaven](https://go.nodemaven.com/GoogleMapsScrapperseptember)
 
-[![NodeMaven - Reliable proxy provider with high-quality IPs](./img/nodemaven.png)](https://go.nodemaven.com/GoogleMapsScrapper)
+[![NodeMaven - The most efficient proxy provider for Web Scraping and Automation](./img/nodemaven.png)](https://go.nodemaven.com/GoogleMapsScrapperseptember)
 
-[**NodeMaven**](https://go.nodemaven.com/GoogleMapsScrapper) provides high-quality proxies for automation, web scraping, SEO research, and social media management.
+[**NodeMaven**](https://go.nodemaven.com/GoogleMapsScrapperseptember): The most efficient proxy provider for Web Scraping and Automation with the Highest Quality IP on the market.
 
-Why NodeMaven:
+Why [**NodeMaven**](https://go.nodemaven.com/GoogleMapsScrapperseptember)?
 
+- ZIP targeting
 - 99.9% uptime
-- Sticky sessions up to 7 days
-- Low-fraud IPs with score under 97
+- IP filtering: all proxies have fraud score <97%
 - No KYC required
-- Up to 10% traffic cashback
+- Unique free tools: Proxy Bandwidth Checker, Meta Tag Checker, IP Lookup and others!
 
 **Special codes for Google Maps Scraper users:**
 
-- `MAPS35` - 35% off Mobile and Residential Proxies
-- `MAPS40` - 40% off ISP Static Proxies
+- `MAPS35` - 35% off to Mobile and Residential Proxies
+- `MAPS40` - 40% off to ISP (Static) Proxies
 
-[**Visit NodeMaven →**](https://go.nodemaven.com/GoogleMapsScrapper)
+[**Visit NodeMaven →**](https://go.nodemaven.com/GoogleMapsScrapperseptember)
 
 ---
 
@@ -275,6 +273,7 @@ Useful options:
 | Extract emails from business websites | `-email` |
 | Write JSON instead of CSV | `-json -results /out/results.json` |
 | Collect extra reviews | `-extra-reviews -json -results /out/results.json` |
+| Resume an interrupted file scrape | `-resume -results /out/results.csv` |
 | Increase concurrency | `-c 4`, `-c 8`, or `-c 16` |
 | Run multiple pages per browser | `-pages-per-browser 4` |
 | Limit browser processes | `-browser-pool-size 2` |
@@ -389,7 +388,7 @@ docker pull gosom/google-maps-scraper
 
 ### Build from Source
 
-Requirements: Go 1.26.5+
+Requirements: Go 1.26.6+
 
 ```bash
 git clone https://github.com/gosom/google-maps-scraper.git
@@ -495,6 +494,7 @@ Core Options:
   -input string       Path to input file with queries (one per line)
   -results string     Output file path (default: stdout)
   -json              Output JSON instead of CSV
+  -resume            Resume a CLI file scrape by appending missing places
   -depth int         Max scroll depth in results (default: 10)
   -c int             Concurrency level (default: half of CPU cores)
 
@@ -541,6 +541,22 @@ Notes:
 ```
 
 Run `./google-maps-scraper -h` for the complete list.
+
+### Resuming Interrupted CLI Runs
+
+Use `-resume` to continue a CLI file scrape after a crash or manual stop:
+
+```bash
+./google-maps-scraper \
+  -resume \
+  -input queries.txt \
+  -results results.csv \
+  -depth 10
+```
+
+Resume mode reads the existing CSV or JSONL results file, appends new results, and skips places that were already written. It also writes completed input queries to `<results>.resume.json`; future resume runs use that sidecar file to skip fully completed queries.
+
+`-resume` is only supported with regular file output. It requires `-results` to be a file path and does not support `stdout`, `-writer`, `-leadsdb-api-key`, or `-fast-mode`. Resume runs should use the same input and scrape options as the original run.
 
 ### Using Proxies
 
@@ -877,4 +893,8 @@ Please use this scraper responsibly and in accordance with applicable laws and r
 
 <p align="center">
   <sub>Banner generated using OpenAI's DALL-E</sub>
+</p>
+
+<p align="center">
+  <sub><strong>SPONSOR DISCLAIMER:</strong> Sponsor listings and referral links do not constitute an endorsement. This project and its maintainers are not responsible for sponsors' products, services, representations, conduct, or any resulting loss or damage. Users engage with sponsors at their own risk.</sub>
 </p>

@@ -86,6 +86,7 @@ type Config struct {
 	LeadsDBAPIKey            string
 	BrowserPoolSize          int
 	MaxPagesPerBrowser       int
+	Resume                   bool
 
 	// Grid scraping — divide a bounding box into cells to bypass the ~120
 	// results-per-search limit imposed by Google Maps.
@@ -143,6 +144,7 @@ func ParseConfig() *Config {
 	flag.BoolVar(&cfg.ExtraReviews, "extra-reviews", false, "enable extra reviews collection")
 	flag.StringVar(&cfg.ValidatePlaceIdUrl, "validate-place-id-url", "", "set URL for validating place IDs")
 	flag.StringVar(&cfg.LeadsDBAPIKey, "leadsdb-api-key", "", "LeadsDB API key for exporting results to LeadsDB")
+	flag.BoolVar(&cfg.Resume, "resume", false, "resume a CLI file scrape by reading existing results and appending missing places")
 	flag.StringVar(&cfg.GridBBox, "grid-bbox", "", "bounding box for grid scraping: 'minLat,minLon,maxLat,maxLon' (e.g. '40.30,-3.80,40.50,-3.60')")
 	flag.Float64Var(&cfg.GridCellKm, "grid-cell", 1.0, "grid cell size in km [default: 1.0]. Use with -grid-bbox")
 	flag.IntVar(&cfg.BrowserPoolSize, "browser-pool-size", 0, "number of browser contexts for JS mode; 0 derives from concurrency and pages-per-browser")
@@ -315,7 +317,7 @@ func banner(messages []string, width int) string {
 
 	contentWidth := width - 4
 
-	var wrappedLines []string
+	wrappedLines := make([]string, 0, len(messages))
 	for _, message := range messages {
 		wrappedLines = append(wrappedLines, wrapText(message, contentWidth)...)
 	}
@@ -332,7 +334,7 @@ func banner(messages []string, width int) string {
 			paddingRight = 0
 		}
 
-		builder.WriteString(fmt.Sprintf("║ %s%s ║\n", line, strings.Repeat(" ", paddingRight)))
+		fmt.Fprintf(&builder, "║ %s%s ║\n", line, strings.Repeat(" ", paddingRight))
 	}
 
 	builder.WriteString("╚" + strings.Repeat("═", width-2) + "╝\n")

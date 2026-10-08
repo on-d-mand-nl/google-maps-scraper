@@ -2,6 +2,7 @@ package runner
 
 import (
 	"bufio"
+	"crypto/sha256"
 	"fmt"
 	"io"
 	"os"
@@ -9,14 +10,44 @@ import (
 	"plugin"
 	"strconv"
 	"strings"
+	"uuid"
 
-	"github.com/google/uuid"
 	"github.com/gosom/google-maps-scraper/deduper"
 	"github.com/gosom/google-maps-scraper/exiter"
 	"github.com/gosom/google-maps-scraper/gmaps"
 	"github.com/gosom/google-maps-scraper/grid"
 	"github.com/gosom/scrapemate"
 )
+
+type seedJobConfig struct {
+	completedInputSkipper func(string) bool
+	completionTracker     gmaps.CompletionTracker
+	deterministicIDs      bool
+}
+
+// SeedJobOption configures seed job creation.
+type SeedJobOption func(*seedJobConfig)
+
+// WithCompletedInputSkipper skips seed jobs whose input IDs are complete.
+func WithCompletedInputSkipper(skipper func(string) bool) SeedJobOption {
+	return func(cfg *seedJobConfig) {
+		cfg.completedInputSkipper = skipper
+	}
+}
+
+// WithCompletionTracker attaches a per-input completion tracker to created jobs.
+func WithCompletionTracker(tracker gmaps.CompletionTracker) SeedJobOption {
+	return func(cfg *seedJobConfig) {
+		cfg.completionTracker = tracker
+	}
+}
+
+// WithDeterministicSeedIDs derives stable IDs for input lines without custom IDs.
+func WithDeterministicSeedIDs() SeedJobOption {
+	return func(cfg *seedJobConfig) {
+		cfg.deterministicIDs = true
+	}
+}
 
 func CreateSeedJobs(
 	fastmode bool,
@@ -31,7 +62,10 @@ func CreateSeedJobs(
 	exitMonitor exiter.Exiter,
 	extraReviews bool,
 	validatePlaceIdUrl string,
+	opts ...SeedJobOption,
 ) (jobs []scrapemate.IJob, err error) {
+	createCfg := newSeedJobConfig(opts...)
+
 	var lat, lon float64
 
 	if fastmode {
@@ -86,6 +120,14 @@ func CreateSeedJobs(
 		query := q.text
 		id := q.id
 
+		if createCfg.deterministicIDs && id == "" {
+			id = deterministicSeedID(query)
+		}
+
+		if createCfg.completedInputSkipper != nil && createCfg.completedInputSkipper(id) {
+			continue
+		}
+
 		var job scrapemate.IJob
 
 		if !fastmode {
@@ -105,6 +147,10 @@ func CreateSeedJobs(
 
 			if validatePlaceIdUrl != "" {
 				opts = append(opts, gmaps.WithValidatePlaceIdUrl(validatePlaceIdUrl))
+			}
+
+			if createCfg.completionTracker != nil {
+				opts = append(opts, gmaps.WithGmapCompletionTracker(createCfg.completionTracker))
 			}
 
 			job = gmaps.NewGmapJob(id, langCode, query, maxDepth, email, geoCoordinates, zoom, validatePlaceIdUrl, opts...)
@@ -128,7 +174,13 @@ func CreateSeedJobs(
 				opts = append(opts, gmaps.WithSearchJobExitMonitor(exitMonitor))
 			}
 
-			job = gmaps.NewSearchJob(&jparams, opts...)
+			searchJob := gmaps.NewSearchJob(&jparams, opts...)
+
+			if id != "" {
+				searchJob.ID = id
+			}
+
+			job = searchJob
 		}
 
 		jobs = append(jobs, job)
@@ -154,7 +206,10 @@ func CreateGridSeedJobs(
 	dedup deduper.Deduper,
 	exitMonitor exiter.Exiter,
 	extraReviews bool,
+	opts ...SeedJobOption,
 ) ([]scrapemate.IJob, error) {
+	createCfg := newSeedJobConfig(opts...)
+
 	if zoom < 1 || zoom > 21 {
 		return nil, fmt.Errorf("invalid zoom level: %d", zoom)
 	}
@@ -181,9 +236,19 @@ func CreateGridSeedJobs(
 
 		for _, cell := range cells {
 			// Each cell gets a unique ID derived from the query ID (or a new UUID).
-			cellID := uuid.New().String()
-			if queryID != "" {
+			cellID := uuid.NewV4().String()
+
+			switch {
+			case createCfg.deterministicIDs && queryID != "":
+				cellID = deterministicSeedID(queryID, cell.GeoCoordinates())
+			case createCfg.deterministicIDs:
+				cellID = deterministicSeedID(queryText, cell.GeoCoordinates())
+			case queryID != "":
 				cellID = fmt.Sprintf("%s-%s", queryID, cellID)
+			}
+
+			if createCfg.completedInputSkipper != nil && createCfg.completedInputSkipper(cellID) {
+				continue
 			}
 
 			opts := []gmaps.GmapJobOptions{}
@@ -198,6 +263,10 @@ func CreateGridSeedJobs(
 
 			if extraReviews {
 				opts = append(opts, gmaps.WithExtraReviews())
+			}
+
+			if createCfg.completionTracker != nil {
+				opts = append(opts, gmaps.WithGmapCompletionTracker(createCfg.completionTracker))
 			}
 
 			job := gmaps.NewGmapJob(
@@ -216,6 +285,25 @@ func CreateGridSeedJobs(
 	}
 
 	return jobs, nil
+}
+
+func newSeedJobConfig(opts ...SeedJobOption) seedJobConfig {
+	var cfg seedJobConfig
+	for _, opt := range opts {
+		opt(&cfg)
+	}
+
+	return cfg
+}
+
+func deterministicSeedID(parts ...string) string {
+	hash := sha256.New()
+	for _, part := range parts {
+		_, _ = hash.Write([]byte(part))
+		_, _ = hash.Write([]byte{0})
+	}
+
+	return fmt.Sprintf("resume:%x", hash.Sum(nil))
 }
 
 // query holds a parsed input line.
