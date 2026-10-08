@@ -124,6 +124,8 @@ var Command = &cli.Command{
 			return err
 		}
 
+		rqueueClient.StartWorkerHealthChecks(ctx, encryptionKey)
+
 		riverUIHandler, err := rqueue.CreateRiverUIHandler(ctx, rqueueClient)
 		if err != nil {
 			return err

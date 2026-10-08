@@ -1,0 +1,48 @@
+name: gmapssaas-central
+services:
+  db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: gmapssaas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      POSTGRES_DB: gmapssaas
+    ports:
+      - "${TAILSCALE_IP:?Set TAILSCALE_IP}:55432:5432"
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U gmapssaas -d gmapssaas"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  migrate:
+    image: gmapssaas:local
+    build:
+      context: ../..
+      dockerfile: Dockerfile.saas
+    command: [admin, migrate]
+    environment:
+      DATABASE_URL: postgres://gmapssaas:${POSTGRES_PASSWORD}@db:5432/gmapssaas?sslmode=disable
+    depends_on:
+      db:
+        condition: service_healthy
+  server:
+    image: gmapssaas:local
+    restart: unless-stopped
+    command: [serve]
+    environment:
+      DATABASE_URL: postgres://gmapssaas:${POSTGRES_PASSWORD}@db:5432/gmapssaas?sslmode=disable
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:?Set ENCRYPTION_KEY}
+    ports:
+      - "${DASHBOARD_IP:-127.0.0.1}:8090:8080"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, curl, -fsS, -o, /dev/null, http://localhost:8080/admin/login]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  database:

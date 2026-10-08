@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+**/*credentials*
+gmapsdata
+webdata
+cache
+bin

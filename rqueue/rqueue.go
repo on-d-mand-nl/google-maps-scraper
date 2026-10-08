@@ -222,6 +222,7 @@ func (w *ScrapeWorker) Work(ctx context.Context, job *river.Job[ScrapeJobArgs]) 
 			args.Email,
 			args.GeoCoordinates,
 			args.Zoom,
+			"", // SaaS jobs do not configure an external place ID validator.
 			opts...,
 		)
 	}
@@ -426,13 +427,6 @@ func NewClient(dbPool *pgxpool.Pool, encryptionKey []byte) (*Client, error) {
 	})
 
 	periodicJobs := []*river.PeriodicJob{
-		river.NewPeriodicJob(
-			river.PeriodicInterval(30*time.Second),
-			func() (river.JobArgs, *river.InsertOpts) {
-				return WorkerHealthCheckArgs{}, nil
-			},
-			&river.PeriodicJobOpts{RunOnStart: true},
-		),
 		river.NewPeriodicJob(
 			river.PeriodicInterval(1*time.Hour),
 			func() (river.JobArgs, *river.InsertOpts) {

@@ -6,3 +6,9 @@ examples/examples-api/map-outputs
 examples/examples-api/**/__pycache__/
 examples/examples-api/**/*.py[cod]
 gmaps-output
+gmapsdata
+
+# Local SaaS deployment secrets
+deploy/saas/.env
+deploy/saas/.env.worker
+deploy/saas/admin-credentials.txt

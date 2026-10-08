@@ -202,7 +202,7 @@
                             </td>
                             <td style="padding: 0.75rem 0.5rem; font-family: ui-monospace, SFMono-Regular, monospace; color: var(--text-secondary);">{{if .IPAddress}}{{.IPAddress}}{{else}}&mdash;{{end}}</td>
                             <td style="padding: 0.75rem 0.5rem;">
-                                {{if and (ne .Status "deleting") (ne .Status "deleted")}}
+                                {{if eq .Provider "external"}}Managed externally{{else if and (ne .Status "deleting") (ne .Status "deleted")}}
                                 {{if and .IPAddress (eq .Status "active")}}
                                 <button onclick="window.open('/admin/workers/{{.ID}}/terminal', '_blank', 'width=900,height=600')" style="background: none; border: 1px solid var(--primary); color: var(--primary); padding: 0.375rem 0.75rem; font-size: 0.8rem; border-radius: 6px; cursor: pointer; width: auto; margin-right: 0.5rem;">Terminal</button>
                                 {{end}}
@@ -284,6 +284,7 @@
             }
 
             function renderActions(w) {
+                if (w.Provider === 'external') return 'Managed externally';
                 if (w.Status === 'deleting' || w.Status === 'deleted') return '';
                 var html = '';
                 if (w.IPAddress && w.Status === 'active') {

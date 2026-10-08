@@ -11,6 +11,7 @@ import (
 	gocli "github.com/gosom/google-maps-scraper/cli"
 	"github.com/gosom/google-maps-scraper/cryptoext"
 	"github.com/gosom/google-maps-scraper/env"
+	"github.com/gosom/google-maps-scraper/migrations"
 	saas "github.com/gosom/google-maps-scraper/saas"
 )
 
@@ -18,6 +19,21 @@ var Command = &cli.Command{
 	Name:  "admin",
 	Usage: "Admin tasks",
 	Commands: []*cli.Command{
+		{
+			Name:  "migrate",
+			Usage: "Apply pending SaaS database migrations",
+			Flags: []cli.Flag{
+				&cli.StringFlag{Name: "database-url", Sources: cli.EnvVars(saas.EnvDatabaseURL), Required: true},
+			},
+			Action: func(ctx context.Context, cmd *cli.Command) error {
+				n, err := migrations.RunWithDSN(cmd.String("database-url"))
+				if err != nil {
+					return err
+				}
+				fmt.Printf("Applied %d migrations\n", n)
+				return nil
+			},
+		},
 		{
 			Name:  "create-user",
 			Usage: "Create or update a user",

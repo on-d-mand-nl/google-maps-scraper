@@ -29,7 +29,7 @@ func TestGmapJobProcessNotifiesSeedDiscovery(t *testing.T) {
 	t.Parallel()
 
 	tracker := &recordingCompletionTracker{}
-	job := gmaps.NewGmapJob("input-1", "en", "coffee", 1, false, "", 0, gmaps.WithGmapCompletionTracker(tracker))
+	job := gmaps.NewGmapJob("input-1", "en", "coffee", 1, false, "", 0, "", gmaps.WithGmapCompletionTracker(tracker))
 	doc, err := goquery.NewDocumentFromReader(strings.NewReader(`
 		<html><body>
 			<div role="feed">

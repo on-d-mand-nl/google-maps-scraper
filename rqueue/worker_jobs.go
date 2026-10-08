@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net"
+	"net/http"
 	"strings"
 	"time"
 
@@ -527,7 +528,7 @@ func (w *WorkerHealthCheckWorker) Work(ctx context.Context, _ *river.Job[WorkerH
 	// This also heals workers stuck with raw provider statuses (e.g. "new", "running")
 	// by normalizing them to "active" when reachable.
 	rows, err := w.dbPool.Query(ctx,
-		`SELECT id, status, ip_address FROM provisioned_resources
+		`SELECT id, status, ip_address, provider FROM provisioned_resources
 		 WHERE status NOT IN ('failed', 'deleted', 'deleting') AND ip_address != '' AND deleted_at IS NULL`,
 	)
 	if err != nil {
@@ -536,16 +537,17 @@ func (w *WorkerHealthCheckWorker) Work(ctx context.Context, _ *river.Job[WorkerH
 	defer rows.Close()
 
 	type worker struct {
-		id     int
-		status string
-		ip     string
+		id       int
+		status   string
+		ip       string
+		provider string
 	}
 
 	var workers []worker
 
 	for rows.Next() {
 		var wr worker
-		if err := rows.Scan(&wr.id, &wr.status, &wr.ip); err != nil {
+		if err := rows.Scan(&wr.id, &wr.status, &wr.ip, &wr.provider); err != nil {
 			return fmt.Errorf("failed to scan worker: %w", err)
 		}
 
@@ -556,23 +558,28 @@ func (w *WorkerHealthCheckWorker) Work(ctx context.Context, _ *river.Job[WorkerH
 		return fmt.Errorf("failed to iterate workers: %w", err)
 	}
 
-	sshKeyJSON, err := getDecryptedConfig(ctx, w.dbPool, w.encryptionKey, configSSHKeyPair)
-	if err != nil {
-		return fmt.Errorf("failed to get SSH key for health checks: %w", err)
-	}
-
-	var sshKey infra.SSHKey
-	if err := json.Unmarshal([]byte(sshKeyJSON), &sshKey); err != nil {
-		return fmt.Errorf("failed to parse SSH key for health checks: %w", err)
-	}
-
-	signer, err := ssh.ParsePrivateKey([]byte(sshKey.Key))
-	if err != nil {
-		return fmt.Errorf("failed to parse SSH private key for health checks: %w", err)
-	}
-
+	var signer ssh.Signer
 	for _, wr := range workers {
-		health := checkWorkerHealth(ctx, wr.ip, signer)
+		var health *healthResult
+		if wr.provider == "external" {
+			health = checkHTTPWorkerHealth(ctx, net.JoinHostPort(wr.ip, "18080"))
+		} else {
+			if signer == nil {
+				keyJSON, keyErr := getDecryptedConfig(ctx, w.dbPool, w.encryptionKey, configSSHKeyPair)
+				var key infra.SSHKey
+				if keyErr == nil {
+					keyErr = json.Unmarshal([]byte(keyJSON), &key)
+				}
+				if keyErr == nil {
+					signer, keyErr = ssh.ParsePrivateKey([]byte(key.Key))
+				}
+				if keyErr != nil {
+					log.Error("failed to load SSH key for worker health", "error", keyErr)
+					continue
+				}
+			}
+			health = checkWorkerHealth(ctx, wr.ip, signer)
+		}
 
 		healthJSON, err := json.Marshal(health)
 		if err != nil {
@@ -814,4 +821,49 @@ func runSSHCommand(ctx context.Context, client *ssh.Client, cmd string) (string,
 	case err := <-done:
 		return strings.TrimSpace(string(out)), err
 	}
+}
+
+// checkHTTPWorkerHealth checks manually managed workers over their private network.
+func checkHTTPWorkerHealth(ctx context.Context, address string) *healthResult {
+	checkedAt := time.Now().UTC().Format(time.RFC3339)
+	unreachable := &healthResult{Reachable: false, CheckedAt: checkedAt}
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, "http://"+address+"/health", nil)
+	if err != nil {
+		return unreachable
+	}
+	client := &http.Client{Timeout: 5 * time.Second, CheckRedirect: func(*http.Request, []*http.Request) error { return http.ErrUseLastResponse }}
+	resp, err := client.Do(req)
+	if err != nil {
+		return unreachable
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		return unreachable
+	}
+	var health healthResult
+	if err := json.NewDecoder(resp.Body).Decode(&health); err != nil || health.Status != "ok" {
+		return unreachable
+	}
+	health.Reachable = true
+	health.CheckedAt = checkedAt
+	return &health
+}
+
+// StartWorkerHealthChecks keeps dashboard monitoring independent of queue leadership.
+func (c *Client) StartWorkerHealthChecks(ctx context.Context, encryptionKey []byte) {
+	go func() {
+		worker := &WorkerHealthCheckWorker{dbPool: c.dbPool, encryptionKey: encryptionKey}
+		ticker := time.NewTicker(30 * time.Second)
+		defer ticker.Stop()
+		for {
+			if err := worker.Work(ctx, nil); err != nil && ctx.Err() == nil {
+				log.Error("worker health check failed", "error", err)
+			}
+			select {
+			case <-ctx.Done():
+				return
+			case <-ticker.C:
+			}
+		}
+	}()
 }

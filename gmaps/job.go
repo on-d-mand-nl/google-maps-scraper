@@ -280,12 +280,9 @@ func (j *GmapJob) BrowserActions(ctx context.Context, page scrapemate.BrowserPag
 
 	feedFound := false
 	for _, sel := range selectors {
-		//nolint:staticcheck // TODO replace with the new playwright API
-		feedElement, err := page.WaitForSelector(sel, playwright.PageWaitForSelectorOptions{
-			Timeout: playwright.Float(700),
-		})
+		err := page.WaitForSelector(sel, 700*time.Millisecond)
 
-		if err == nil && feedElement != nil {
+		if err == nil {
 			feedFound = true
 			feedSelector = sel
 			break
@@ -394,7 +391,7 @@ func scroll(ctx context.Context,
 	scrollSelector string,
 ) (int, error) {
 	// First, check if the selector exists at all
-	hasElement, err := page.Evaluate(fmt.Sprintf(`() => {
+	hasElement, err := page.Eval(fmt.Sprintf(`() => {
 		const selectors = [
 			"%s",
 			"div[role='feed']",
@@ -426,7 +423,7 @@ func scroll(ctx context.Context,
 
 		// If no elements found, just scroll the document and return
 		for i := 0; i < maxDepth; i++ {
-			_, err := page.Evaluate(`() => {
+			_, err := page.Eval(`() => {
 				window.scrollBy(0, 500);
 				return document.body.scrollHeight;
 			}`)
@@ -540,7 +537,7 @@ func scroll(ctx context.Context,
 			fmt.Printf("Scroll error on iteration %d: %v\n", i, err)
 
 			// Try a simple fallback
-			_, fallbackErr := page.Evaluate(`() => {
+			_, fallbackErr := page.Eval(`() => {
 				window.scrollBy(0, 500);
 				return true;
 			}`)
@@ -568,7 +565,7 @@ func scroll(ctx context.Context,
 
 		if height == 0 || height == currentScrollHeight {
 			// If height is 0 or hasn't changed, try one more approach with window.scrollBy
-			_, byErr := page.Evaluate(`() => {
+			_, byErr := page.Eval(`() => {
 				window.scrollBy(0, 500);
 				console.log("Used window.scrollBy because height is unchanged or zero");
 				return true;

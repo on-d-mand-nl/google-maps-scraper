@@ -61,7 +61,7 @@ func TestNewGmapJobBuildsURLFromQuery(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			job := gmaps.NewGmapJob("", "en", tt.query, 0, false, "", 0)
+			job := gmaps.NewGmapJob("", "en", tt.query, 0, false, "", 0, "")
 
 			if job.URL != tt.expectedURL {
 				t.Errorf("NewGmapJob(..., %q, ...).URL = %q, want %q", tt.query, job.URL, tt.expectedURL)

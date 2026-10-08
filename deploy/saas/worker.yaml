@@ -1,0 +1,21 @@
+name: gmapssaas-workers
+services:
+  worker:
+    # Build on each machine to match its CPU architecture.
+    image: gmapssaas:local
+    build:
+      context: ../..
+      dockerfile: Dockerfile.saas
+    command: [worker, --fast]
+    restart: unless-stopped
+    init: true
+    shm_size: 1gb
+    stop_grace_period: 60s
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL to the central Tailscale database address}
+    healthcheck:
+      test: [CMD, curl, -fsS, http://localhost:8080/health]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 120s
